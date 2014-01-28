@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+description: John Kelly is a software engineer working in Palo Alto, CA.
 date:   2014-01-27 23:17:55
 categories: jekyll update
 ---
