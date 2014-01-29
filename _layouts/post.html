@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<div class="row">
-  <div class="col-xs-12 col-sm-offset-2 col-sm-8">
-    <div class="page-header text-center">
-      <h1>{{ page.title }} <small>{{page.date | date_to_string }}</small></h1>
-      <img src="{{ page.image }}" alt=" {{ image.alt }}" class="img-circle" />
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+      <div class="page-header text-center">
+        <h1>{{ page.title }} <small>{{page.date | date_to_string }}</small></h1>
+        <img src="{{ page.image }}" alt=" {{ image.alt }}" class="img-circle" />
+      </div>
+      {{ content }}
     </div>
-    {{ content }}
   </div>
 </div>

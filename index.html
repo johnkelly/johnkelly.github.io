@@ -3,16 +3,21 @@ layout: default
 title: Software Engineer &bull; John Kelly
 description: John Kelly is a software engineer working in Palo Alto, CA.
 ---
-<div class="row">
-  <div class="col-xs-12 col-sm-offset-2 col-sm-8">
-    <div class="page-header text-center">
-      <h1>My Blog <small>Engineering & Entrepreneurship</small></h1>
-      <h2><i class="fa fa-rss fa-3"></i></h2>
+<div class="blog-cover">
+  <section>
+  <div class="cover-text">
+    <h1>Engineering & Entrepreneurship</h1>
+  </div>
+  </section>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+      <ul class="posts">
+        {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
-    <ul class="posts">
-      {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
   </div>
 </div>
