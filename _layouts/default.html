@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="{{ page.description }}" />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ page.description }}" />
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.3/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/work">My Work</a>
-            <a class="extra" href="/about">My Story</a>
-          </div>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
 
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                John Kelly<br />
-                Senior Ruby on Rails Engineer<br />
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/johnkelly">Github</a><br />
-                <a href="https://twitter.com/railsjk">Twitter</a><br />
-                <a href="http://stackoverflow.com/users/564761/john">Stackoverflow</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-    </body>
+    <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">{{ site.name }}</a>
+      </div>
+      <div class="navbar-collapse navbar-inverse-collapse collapse" style="height: 1px;">
+        <ul class="nav navbar-nav">
+          <li><a href="/work">My Work</a></li>
+          <li><a href="/about">My Story</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/johnkelly" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://stackoverflow.com/users/564761/john" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/jkellyj" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/railsjk" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div>
+    <div class="site">
+      {{ content }}
+    </div>
+  </body>
 </html>
