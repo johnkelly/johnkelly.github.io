@@ -169,3 +169,7 @@ text-center {
 .mt15em {
   margin-top: 1.5em;
 }
+
+.w100p{
+  width: 100%;
+}
