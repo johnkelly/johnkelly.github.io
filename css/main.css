@@ -173,3 +173,8 @@ text-center {
 .w100p{
   width: 100%;
 }
+
+.post_icon_header {
+  font-size: 700%;
+  color: #000;
+}
