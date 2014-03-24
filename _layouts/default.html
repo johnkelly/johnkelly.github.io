@@ -37,6 +37,7 @@
           <li><a href="/work/">My Work</a></li>
           <li><a href="/about/">My Story</a></li>
           <li><a href="/toolbox/">My Toolbox</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#subscribe_modal">Subscribe</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="https://github.com/johnkelly" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -47,5 +48,6 @@
       </div>
     </nav>
     {{ content }}
+    {% include subscribe_modal.html %}
   </body>
 </html>
