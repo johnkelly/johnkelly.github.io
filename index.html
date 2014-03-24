@@ -11,11 +11,38 @@ description: John Kelly is a software engineer working in Palo Alto, CA.
 <main role="main" class="container mt15em">
   <div class="row">
     <div class="col-xs-12 col-sm-offset-2 col-sm-8">
-      <ul class="posts">
-        {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
+      {% for post in paginator.posts %}
+      <article>
+        <div class="page-header text-center">
+          <h1>
+            <a href="{{post.url}}">{{ post.title }}</a>
+            <small>{{post.date | date_to_string }}</small>
+          </h1>
+          {% if post.image  %}
+          <img src="{{ post.image }}" alt=" {{ post.image_alt }}" class="img-circle" />
+          {% elsif post.icon  %}
+          <i class="fa {{ post.icon }} post_icon_header"></i>
+          {% endif  %}
+        </div>
+        {{ post.content }}
+      </article>
+      {% endfor %}
+      {% if paginator.total_pages > 1 %}
+      <ul class="pagination">
+        {% if paginator.previous_page %}
+        <li>
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a>
+        </li>
+        {% else %}
+        {% endif %}
+        {% if paginator.next_page %}
+        <li>
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a>
+        </li>
+        {% else %}
+        {% endif %}
       </ul>
+      {% endif %}
     </div>
   </div>
 </main>
