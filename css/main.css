@@ -174,7 +174,101 @@ text-center {
   width: 100%;
 }
 
+.pb1em {
+  padding-bottom: 1em;
+}
+
 .post_icon_header {
   font-size: 700%;
   color: #000;
+}
+
+.yuzu {
+  width: 100%;
+  height: 100%;
+  background-color: #2E5B6E;
+  color: #FFF;
+}
+
+
+.release_board {
+  width: 100%;
+  height: 100%;
+  background-color: #9F504E;
+  color: #FFF;
+}
+
+.zarlu {
+  width: 100%;
+  height: 100%;
+  background-color: #36393C;
+  color: #FFF;
+}
+
+.whiteboard {
+  width: 100%;
+  height: 100%;
+  background-color: #3F8992;
+  color: #FFF;
+}
+
+.tci {
+  width: 100%;
+  height: 100%;
+  background-color: #361277;
+  color: #FFF;
+}
+
+.favorite_plate {
+  width: 100%;
+  height: 100%;
+  background-color: #272727;
+  color: #FFF;
+}
+
+.mojave {
+  width: 100%;
+  height: 100%;
+  background-color: #2C4F4F;
+  color: #FFF;
+}
+
+.mojave {
+  width: 100%;
+  height: 100%;
+  background-color: #2C4F4F;
+  color: #FFF;
+}
+
+.curt_video {
+  width: 100%;
+  height: 100%;
+  background-color: #2A6E97;
+  color: #FFF;
+}
+
+.my_work .container{
+  vertical-align: middle;
+  height: 100%;
+}
+
+.my_work h4{
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+.my_work h2{
+  color: #FFF;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.my_work p.explanation {
+  margin-top: 3em;
+  font-size: 1.15em;
+  line-height: 1.5;
+  text-align: left;
+  padding-bottom: 2em;
 }
