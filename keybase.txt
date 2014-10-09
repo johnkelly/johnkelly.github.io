@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/jkelly
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://johnkellycode.com
+  * I am jkelly (https://keybase.io/jkelly) on keybase.
+  * I have a public key with fingerprint 3243 3BCA 44FE 14C7 92A7  FF31 C818 0466 C099 B430
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "32433bca44fe14c792a7ff31c8180466c099b430",
+            "host": "keybase.io",
+            "key_id": "c8180466c099b430",
+            "uid": "1fb28d4fcc4424de3c871db7e88d9600",
+            "username": "jkelly"
+        },
+        "service": {
+            "hostname": "johnkellycode.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412825101,
+    "expire_in": 157680000,
+    "prev": "e135cea1041d8750e69ad71b0e9ebce36c3d8423b042701b1b090c100aef0db4",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yML5AnicO8LLzMDFeEKCJe3AzC0GjKcPfCllCDFj4K1WSspPqVSyqlbKTgVTaZl5
+6alFBUWZeSVKVkrGRibGxknJiSYmaamGJsnmlkaJ5mlpxobJFoYWBiZmZskGlpZJ
+JsYGSjpKGfnFIB1AY5ISi1P1MvOBYkBOfGYKUBSL+lKwhGFakpFFiklacrKJiZFJ
+SqpxsoW5YUqSeaqFRYqlmQFYYXFqUV5ibipQdVZ2ak5OpVKtjhJQrCwzORXkYpDF
+MPn8jDywkuT8lFS95PxcoPaCovyS/OT8HKB0RklJgRVId0llAUh5eWpSPNSg+KTM
+vBSg14EaylKLijPz85SsDIEqk0syQSYbmhgaWRiZGhoY6iilVhRkFqXGZ4JUmJqb
+WRgAAcia1DKgkamGxqbJqYmGBiaGKRbmpgapZpaJKeaGSQaplqlJyanGZsnGKRYm
+RsZJBiZG5gaGSUAZS4NkQwODxNQ0g5QkEyWQ1wrz8pWsjIDOTEwHGlmcmZ6XWFJa
+lKpUe+hgDAsDIxcDGysTKPIYuDgFYFE6+aAAwwT7H1FieS8q2jwECrMevDR0umrI
+IPpodsLZLXsll9eaCtstq+O1muDaP8nyC2djd7eS1hRH84RTLF9PzI2M/z7R4sqH
+in96rydpsNWu5p5xLsHtk87RaPNr8cIe65Zk8F83jFli5e9WqKMlePFvgnqf2ooz
+7LMC2x82LdvhO8XT3JK1wM3C5oZj0wm2CyUhVx0F5K98vjM5ddH2yAV/H/8+cm9T
+7Umfzb1vuuc0/LAsi/Xd2Sb/qmBTzOYn4qfj3q6RmeK5nPnYvuL4+dM7lHPMqtS1
+rj9T0lPviRE6+DX2s/z1Zc95riXeSNU1Ml7bsr325Yfmqx9V3vwKPl/5iYOvNmKV
+/jSDnDnMj+5OCec9PU+QIf7rUpZ0Td0c/4Zs59fak26eTm2bta5w+ZYg2STPHZZe
+bit9WbRMwvd/aI/VkGm7mWK8dsfHLYdn6KywXtcTlHLa5890n21ua6JaE4UzY1OE
+7hfaGPX9mV9YXTr/2fSSo8qtT57kbxCsmnrJSvrKdKnfe7I1l4T3flk/hzHhSLNy
+teHvd3mpD3sWTpb4/2Yrl2h+31PRp5x6h9I1uU2Wr0hiYgtnqFJN7cza0xC2+AG7
+Q7bX5oLLeTxZFcm8+pFOCyxUDsbnlWzYOO3ui+MPV0yJb+d1yHMKXLpJ/6yec8li
+u4kXV22xZ7jPrS9a/erF78hHcvv4VFc+y38yaf/jWTp17+OmGv4AAMwWixI=
+=TOcI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jkelly
+
+==================================================================
