@@ -1,5 +1,5 @@
 name: John Kelly
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 permalink: /:title
 paginate: 5
